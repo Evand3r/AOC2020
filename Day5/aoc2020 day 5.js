@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.readFile('inputD5', 'utf8', (err, data) => {
+fs.readFile('input', 'utf8', (err, data) => {
     if (err) {
         return console.log(err);
     }

@@ -9,7 +9,7 @@ const passportFields = ["byr",
     "pid",
 ]
 
-fs.readFile("./inputD4", 'utf8', (err, data) => {
+fs.readFile("./input", 'utf8', (err, data) => {
     if (err) {
         return console.log(err);
     }
